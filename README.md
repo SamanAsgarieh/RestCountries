@@ -1,6 +1,6 @@
-# demo
 
-This Repository consists of 3 branches.
+
+### This Repository consists of 3 branches.
 
 ## 1. ISBN
 This branch contains solution to ISBN search and data caching using Python3. Function get_book_info(isbn) receives an ISBN from the user and returns queries that through a database to select Title, Author and language assigned to that ISBN. If the ISBN has not recently been called, the result will be cached in an ordered dictionary. This will give us the ability to remove older entries when the dictionary reaches its maximum capacity. 
